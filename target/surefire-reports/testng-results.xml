@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-19T15:07:08Z" name="Suite" finished-at="2024-06-19T15:11:12Z" duration-ms="243359">
+    <groups>
+    </groups>
+    <test started-at="2024-06-19T15:07:08Z" name="Test" finished-at="2024-06-19T15:11:12Z" duration-ms="243359">
+      <class name="automation.tests.HomePageTestCases">
+        <test-method signature="homePageArrivalsImagesDescription()[pri:0, instance:automation.tests.HomePageTestCases@386f0da3]" started-at="2024-06-19T15:07:08Z" name="homePageArrivalsImagesDescription" finished-at="2024-06-19T15:08:06Z" duration-ms="57405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageArrivalsImagesDescription -->
+        <test-method signature="homePageImagesInArrivalsShouldNavigate()[pri:0, instance:automation.tests.HomePageTestCases@386f0da3]" started-at="2024-06-19T15:08:06Z" name="homePageImagesInArrivalsShouldNavigate" finished-at="2024-06-19T15:09:37Z" duration-ms="91408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageImagesInArrivalsShouldNavigate -->
+        <test-method signature="homePageWithThreeArrivalsOnly()[pri:0, instance:automation.tests.HomePageTestCases@386f0da3]" started-at="2024-06-19T15:09:37Z" name="homePageWithThreeArrivalsOnly" finished-at="2024-06-19T15:10:28Z" duration-ms="50274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageWithThreeArrivalsOnly -->
+        <test-method signature="homePageWithThreeSlidersOnly()[pri:0, instance:automation.tests.HomePageTestCases@386f0da3]" started-at="2024-06-19T15:10:28Z" name="homePageWithThreeSlidersOnly" finished-at="2024-06-19T15:11:12Z" duration-ms="44252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageWithThreeSlidersOnly -->
+      </class> <!-- automation.tests.HomePageTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
