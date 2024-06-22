@@ -59,7 +59,7 @@ public class HomePageTestCases extends BaseTest {
 		terminateWebDriver();
 	}
 
-	//@Test
+	// @Test
 	public void homePageArrivalsImagesReviews() throws IOException {
 		HomePage homePage = openUrl();
 		ShopPage shopPage = homePage.clickOnTargetMenuButton("shop");
@@ -70,5 +70,14 @@ public class HomePageTestCases extends BaseTest {
 				.collect(Collectors.toList());
 		Assert.assertTrue(arrivalsCount == list.size());
 		terminateWebDriver();
+	}
+
+	@Test
+	public void getWebsiteTitle() throws IOException {
+		HomePage homePage = openUrl();
+		String title = homePage.getWebSiteTitle();
+		System.out.println(title);
+		Assert.assertTrue(title.contains("Automation Practice Site"));
+
 	}
 }

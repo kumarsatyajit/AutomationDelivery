@@ -123,4 +123,9 @@ public class HomePage extends AbstractComponent {
 		return result;
 	}
 
+	public String getWebSiteTitle() {
+		String title = driver.getTitle();
+		return title;
+	}
+
 }
